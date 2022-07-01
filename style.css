@@ -1,0 +1,201 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+{
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+  height: 100%;
+  box-sizing: border-box;
+  background-color: #82C0CC; 
+font-family: "Roboto", sans-serif; 
+  font-size: 20px;  
+  line-height: 1.5em;
+  color: #EDE7E3;
+}
+
+header {
+  padding-top: 20px; 
+  padding-left: 10%;
+  padding-right: 10%;
+  margin: 1px;       
+}
+
+main { 
+  padding-top: 25px; 
+  padding-bottom: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 10%;
+  margin-right: 10%;          
+}
+
+h1 {
+  font-family: "Roboto Mono", sans-serif;
+  font-size: 50px;
+  text-align: center;
+  color: #16697A;
+  line-height: 60px;
+  letter-spacing: 12px;
+  margin: 2px;
+}
+
+h2 {
+  font-family: "Roboto Mono", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: #16697A;
+  line-height: 1.3em;
+  letter-spacing: 3px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.subtitle{
+  text-align: center;
+  font-size: 25px;
+  
+  padding-top: 20px;
+}
+
+.attribution {
+  font-size: 14px;
+  text-align: center;
+  
+  padding-top: 10px;
+}
+
+a {
+  color: #16697A;
+  text-decoration: none;
+}
+
+ul.nav-bar {
+  list-style-type: none;        
+  overflow: hidden;
+  background-color: #EDE7E3;
+  border-style: solid;
+  border-color: #16697A;
+}
+
+li.nav-item {
+  display: inline;  
+  float: right;     
+  padding: 5px;
+}
+
+li.nav-item a {   
+  font-size: 15px;
+  color: #16697A;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 16px;
+  padding-right: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+li.nav-item a:hover {
+  background-color: #16697A;
+  color: #82C0CC;
+}
+
+img {
+  display: block;   
+  width: 90%;       
+  height: auto;     
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-color: #FFA62B;
+  border-width: 8px;
+  border-radius: 5px;
+}
+
+#factBtn {
+  background: #16697A;
+  border-style: none;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  color: #EDE7E3;
+  font-size: 1em;
+}
+
+.genFact {
+  background: #FFA62B;
+  border-radius: 10px;
+  border-style: none;
+  padding: 15px;
+  margin-top: 30px;
+  margin-left: 35%;
+  margin-right: 35%;
+  font-family: "Roboto Mono", sans-serif;
+  font-size: 0.9em;
+  text-align: center;
+  line-height: 1.2em;
+  color: #16697A;
+}
+
+#fact {
+  border-style: none;
+  padding: 15px;
+  margin-top: 30px;
+  margin-left: 15%;
+  margin-right: 15%;
+  font-family: "Roboto Mono", sans-serif;
+  font-size: 2em;
+  text-align: center;
+  line-height: 1.2em;
+  color: #16697A;
+
+}
+
+.resources {
+  margin-top: 10px;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.resources li {
+  margin-bottom: 15px;
+}
+
+@media screen and (max-width: 850px) { /* Breakpoint 1 */
+  .flex-container {
+    flex-wrap: wrap; 
+  }
+
+  header {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+
+  main { 
+  margin-left: 5%;
+  margin-right: 5%;          
+  }
+  
+  .genFact, #fact {
+  margin-top: 30px;
+  margin-left: 15%;
+  margin-right: 15%;
+  }
+
+  #fact {
+  font-size: 1.5em;
+  }
+
+}
